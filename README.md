@@ -1,8 +1,10 @@
 # react-native-gimbal
 
 ## Installation
-Clone `github.com/PaeDae/react-native-gimbal-sdk`  
-Add library to your React-Native project: `yarn add ../react-native-gimbal-sdk`  
+Clone `github.com/PaeDae/react-native-gimbal-sdk`. 
+Run `npm pack` from the repo directory to produce a .tz file.
+Unzip the .tz and rename the contained directory `react-native-gimbal-sdk` or whatever name you choose
+Add this directory as a library to your React-Native project by running `yarn add [directory path]`  from your project directory
 If you are using `create-react-app`, you must eject the app to expose native code.  
 If you are using Expo, you must run `exp detach` to expose native code.
 
