@@ -1,0 +1,1545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A60A18619DD81B838578637 /* Pods_RNGimbal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F461D9E7A19D7AB0B56CCA52 /* Pods_RNGimbal.framework */; };
+		A4135B27243E491F00C3A39E /* BeaconManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4135B25243E491800C3A39E /* BeaconManagerTests.m */; };
+		A4135B2B243E4CE600C3A39E /* RNGimbalTests-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = A4135B29243E4AD500C3A39E /* RNGimbalTests-Info.plist */; };
+		A4135D9F244A688700C3A39E /* EstablishedLocationsManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A4135D9E244A688700C3A39E /* EstablishedLocationsManagerModule.m */; };
+		A414185E2452454700088BBF /* LocationHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A414185D2452454700088BBF /* LocationHelperTests.m */; };
+		A46AC124244E1EE3005EA192 /* EstablishedLocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A46AC123244E1EE3005EA192 /* EstablishedLocationManagerTests.m */; };
+		A46AC1C124523236005EA192 /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A46AC1C024523236005EA192 /* LocationHelper.m */; };
+		A46D938D23C3EAE000E212EF /* PlaceManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D938C23C3EAE000E212EF /* PlaceManagerModule.m */; };
+		A48AD2DB23BFBC1100E6A774 /* PrivacyManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A48AD2DA23BFBC1100E6A774 /* PrivacyManagerModule.m */; };
+		A4E00DFB24636E940031AAB5 /* GimbalDebuggerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E00DFA24636E930031AAB5 /* GimbalDebuggerModule.m */; };
+		A4E00DFF24636ECE0031AAB5 /* GimbalDebuggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E00DFD24636EAA0031AAB5 /* GimbalDebuggerTests.m */; };
+		A4EE1E472432904100D02301 /* BeaconManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EE1E462432904100D02301 /* BeaconManagerModule.m */; };
+		A4EE1E502433AE5A00D02301 /* BeaconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EE1E4F2433AE5A00D02301 /* BeaconHelper.m */; };
+		A4EE1F2D2437C35400D02301 /* libRNGimbal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 134814201AA4EA6300B7C361 /* libRNGimbal.a */; };
+		B3E7B58A1CC2AC0600A0062D /* RNGimbal.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNGimbal.m */; };
+		C67D31613137EFF77E3834E7 /* Pods_RNGimbalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3190A63704F5CB56630CAA57 /* Pods_RNGimbalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46D930323C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		A46D930523C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		A46D930723C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		A46D930923C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		A46D930B23C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		A46D930D23C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		A46D930F23C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		A46D931123C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		A46D931323C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		A46D931523C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		A46D931723C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		A46D931923C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		A46D931B23C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		A46D931D23C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		A46D931F23C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		A46D932123C3E77C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+		A46D933623C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		A46D933823C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		A46D933A23C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		A46D933C23C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		A46D933E23C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		A46D934023C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		A46D934223C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		A46D934423C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		A46D934623C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		A46D934823C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		A46D934A23C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		A46D934C23C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		A46D934E23C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		A46D935023C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		A46D935223C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		A46D935423C3E78100E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+		A46D936923C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		A46D936B23C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		A46D936D23C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		A46D936F23C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		A46D937123C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		A46D937323C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		A46D937523C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		A46D937723C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		A46D937923C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		A46D937B23C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		A46D937D23C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		A46D937F23C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		A46D938123C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		A46D938323C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		A46D938523C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		A46D938723C3E79C00E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+		A46D938923C3E7B800E212EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D932323C3E78100E212EF /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		A4EE1F2E2437C35400D02301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B511D31A9E6C8500147676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RNGimbal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNGimbal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNGimbal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2522696E845A0E33F6596E3D /* Pods-RNGimbalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalTests.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalTests/Pods-RNGimbalTests.release.xcconfig"; sourceTree = "<group>"; };
+		3190A63704F5CB56630CAA57 /* Pods_RNGimbalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNGimbalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B58B6B6C678357FEC2D63A9 /* Pods-RNGimbalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalTests/Pods-RNGimbalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC568F42197B16D18C02833 /* Pods-RNGimbal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbal.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbal/Pods-RNGimbal.debug.xcconfig"; sourceTree = "<group>"; };
+		91949923432F0AFB9641BFF0 /* Pods-RNGimbal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbal.release.xcconfig"; path = "Target Support Files/Pods-RNGimbal/Pods-RNGimbal.release.xcconfig"; sourceTree = "<group>"; };
+		A4135B25243E491800C3A39E /* BeaconManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconManagerTests.m; sourceTree = "<group>"; };
+		A4135B29243E4AD500C3A39E /* RNGimbalTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RNGimbalTests-Info.plist"; sourceTree = "<group>"; };
+		A4135BAB243E783C00C3A39E /* libOCMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOCMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4135CBE243FB83800C3A39E /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = usr/include/OCMock/usr/include/OCMock/OCMockObject.h; sourceTree = "<group>"; };
+		A4135CBF243FB83800C3A39E /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMMacroState.h; path = usr/include/OCMock/usr/include/OCMock/OCMMacroState.h; sourceTree = "<group>"; };
+		A4135CC0243FB83800C3A39E /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = usr/include/OCMock/usr/include/OCMock/OCMock.h; sourceTree = "<group>"; };
+		A4135CC1243FB83800C3A39E /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "usr/include/OCMock/usr/include/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		A4135CC2243FB83800C3A39E /* OCMVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMVerifier.h; path = usr/include/OCMock/usr/include/OCMock/OCMVerifier.h; sourceTree = "<group>"; };
+		A4135CC3243FB83800C3A39E /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMFunctions.h; path = usr/include/OCMock/usr/include/OCMock/OCMFunctions.h; sourceTree = "<group>"; };
+		A4135CC4243FB83800C3A39E /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMStubRecorder.h; path = usr/include/OCMock/usr/include/OCMock/OCMStubRecorder.h; sourceTree = "<group>"; };
+		A4135CC5243FB83800C3A39E /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMRecorder.h; path = usr/include/OCMock/usr/include/OCMock/OCMRecorder.h; sourceTree = "<group>"; };
+		A4135CC6243FB83800C3A39E /* OCMQuantifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMQuantifier.h; path = usr/include/OCMock/usr/include/OCMock/OCMQuantifier.h; sourceTree = "<group>"; };
+		A4135CC7243FB83800C3A39E /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMLocation.h; path = usr/include/OCMock/usr/include/OCMock/OCMLocation.h; sourceTree = "<group>"; };
+		A4135CC8243FB83800C3A39E /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = usr/include/OCMock/usr/include/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
+		A4135CC9243FB83800C3A39E /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = usr/include/OCMock/usr/include/OCMock/OCMArg.h; sourceTree = "<group>"; };
+		A4135CCC243FB83800C3A39E /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/usr/lib/usr/lib/libOCMock.a; sourceTree = "<group>"; };
+		A4135D6E244A688700C3A39E /* EstablishedLocationsManagerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstablishedLocationsManagerModule.h; sourceTree = "<group>"; };
+		A4135D9E244A688700C3A39E /* EstablishedLocationsManagerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstablishedLocationsManagerModule.m; sourceTree = "<group>"; };
+		A414185D2452454700088BBF /* LocationHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationHelperTests.m; sourceTree = "<group>"; };
+		A46AC123244E1EE3005EA192 /* EstablishedLocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EstablishedLocationManagerTests.m; path = Tests/EstablishedLocationManagerTests.m; sourceTree = SOURCE_ROOT; };
+		A46AC1BF2452315D005EA192 /* LocationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationHelper.h; sourceTree = "<group>"; };
+		A46AC1C024523236005EA192 /* LocationHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationHelper.m; sourceTree = "<group>"; };
+		A46D92F023C3E77B00E212EF /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		A46D932323C3E78100E212EF /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		A46D935623C3E79C00E212EF /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		A46D938B23C3E9EB00E212EF /* PlaceManagerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceManagerModule.h; sourceTree = "<group>"; };
+		A46D938C23C3EAE000E212EF /* PlaceManagerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceManagerModule.m; sourceTree = "<group>"; };
+		A48AD2D923BFBC0900E6A774 /* PrivacyManagerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyManagerModule.h; sourceTree = "<group>"; };
+		A48AD2DA23BFBC1100E6A774 /* PrivacyManagerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyManagerModule.m; sourceTree = "<group>"; };
+		A4E00DF924636E930031AAB5 /* GimbalDebuggerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GimbalDebuggerModule.h; sourceTree = "<group>"; };
+		A4E00DFA24636E930031AAB5 /* GimbalDebuggerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GimbalDebuggerModule.m; sourceTree = "<group>"; };
+		A4E00DFD24636EAA0031AAB5 /* GimbalDebuggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GimbalDebuggerTests.m; sourceTree = "<group>"; };
+		A4EE1E45243274C400D02301 /* BeaconManagerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconManagerModule.h; sourceTree = "<group>"; };
+		A4EE1E462432904100D02301 /* BeaconManagerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconManagerModule.m; sourceTree = "<group>"; };
+		A4EE1E4E2433ADBB00D02301 /* BeaconHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconHelper.h; sourceTree = "<group>"; };
+		A4EE1E4F2433AE5A00D02301 /* BeaconHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconHelper.m; sourceTree = "<group>"; };
+		A4EE1F282437C35300D02301 /* RNGimbalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNGimbalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5881CC2AC0600A0062D /* RNGimbal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGimbal.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNGimbal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGimbal.m; sourceTree = "<group>"; };
+		F461D9E7A19D7AB0B56CCA52 /* Pods_RNGimbal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNGimbal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A60A18619DD81B838578637 /* Pods_RNGimbal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EE1F252437C35300D02301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EE1F2D2437C35400D02301 /* libRNGimbal.a in Frameworks */,
+				C67D31613137EFF77E3834E7 /* Pods_RNGimbalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNGimbal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0B03E97A4A4D85FDB2918F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CC568F42197B16D18C02833 /* Pods-RNGimbal.debug.xcconfig */,
+				91949923432F0AFB9641BFF0 /* Pods-RNGimbal.release.xcconfig */,
+				6B58B6B6C678357FEC2D63A9 /* Pods-RNGimbalTests.debug.xcconfig */,
+				2522696E845A0E33F6596E3D /* Pods-RNGimbalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				A4135B23243E491800C3A39E /* Tests */,
+				A46AC0F3244E1DEF005EA192 /* EstablishedLocationsManager */,
+				A4EE1E4D2433AD9600D02301 /* BeaconHelper */,
+				A4EE1E15243274A800D02301 /* BeaconManager */,
+				A4E00DF824636E930031AAB5 /* Debugger */,
+				A46AC1BE24523141005EA192 /* LocationHelper */,
+				A46D938E23C3EB3500E212EF /* PlaceManager */,
+				B3E7B5881CC2AC0600A0062D /* RNGimbal.h */,
+				B3E7B5891CC2AC0600A0062D /* RNGimbal.m */,
+				A48AD2D923BFBC0900E6A774 /* PrivacyManagerModule.h */,
+				A48AD2DA23BFBC1100E6A774 /* PrivacyManagerModule.m */,
+				A46D935623C3E79C00E212EF /* React.xcodeproj */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				3A0B03E97A4A4D85FDB2918F /* Pods */,
+				F2BB79C0E92517D0E7961E97 /* Frameworks */,
+				A4EE1F282437C35300D02301 /* RNGimbalTests.xctest */,
+				A4135CCE243FB83800C3A39E /* usr */,
+			);
+			sourceTree = "<group>";
+		};
+		A4135B23243E491800C3A39E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A414185D2452454700088BBF /* LocationHelperTests.m */,
+				A4135B29243E4AD500C3A39E /* RNGimbalTests-Info.plist */,
+				A4E00DFD24636EAA0031AAB5 /* GimbalDebuggerTests.m */,
+				A46AC123244E1EE3005EA192 /* EstablishedLocationManagerTests.m */,
+				A4135B25243E491800C3A39E /* BeaconManagerTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A4135CCA243FB83800C3A39E /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				A4135CBE243FB83800C3A39E /* OCMockObject.h */,
+				A4135CBF243FB83800C3A39E /* OCMMacroState.h */,
+				A4135CC0243FB83800C3A39E /* OCMock.h */,
+				A4135CC1243FB83800C3A39E /* NSNotificationCenter+OCMAdditions.h */,
+				A4135CC2243FB83800C3A39E /* OCMVerifier.h */,
+				A4135CC3243FB83800C3A39E /* OCMFunctions.h */,
+				A4135CC4243FB83800C3A39E /* OCMStubRecorder.h */,
+				A4135CC5243FB83800C3A39E /* OCMRecorder.h */,
+				A4135CC6243FB83800C3A39E /* OCMQuantifier.h */,
+				A4135CC7243FB83800C3A39E /* OCMLocation.h */,
+				A4135CC8243FB83800C3A39E /* OCMConstraint.h */,
+				A4135CC9243FB83800C3A39E /* OCMArg.h */,
+			);
+			name = OCMock;
+			path = usr/usr/include/usr/include/OCMock;
+			sourceTree = "<group>";
+		};
+		A4135CCB243FB83800C3A39E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A4135CCA243FB83800C3A39E /* OCMock */,
+			);
+			name = include;
+			path = usr/include;
+			sourceTree = "<group>";
+		};
+		A4135CCD243FB83800C3A39E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A4135CCC243FB83800C3A39E /* libOCMock.a */,
+			);
+			name = lib;
+			path = usr/lib;
+			sourceTree = "<group>";
+		};
+		A4135CCE243FB83800C3A39E /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				A4135CCB243FB83800C3A39E /* include */,
+				A4135CCD243FB83800C3A39E /* lib */,
+			);
+			name = usr;
+			path = "/Users/andrewtran/Desktop/repos/react-native-gimbal-sdk/ios/usr";
+			sourceTree = "<absolute>";
+		};
+		A46AC0F3244E1DEF005EA192 /* EstablishedLocationsManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4135D6E244A688700C3A39E /* EstablishedLocationsManagerModule.h */,
+				A4135D9E244A688700C3A39E /* EstablishedLocationsManagerModule.m */,
+			);
+			path = EstablishedLocationsManager;
+			sourceTree = "<group>";
+		};
+		A46AC1BE24523141005EA192 /* LocationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A46AC1BF2452315D005EA192 /* LocationHelper.h */,
+				A46AC1C024523236005EA192 /* LocationHelper.m */,
+			);
+			path = LocationHelper;
+			sourceTree = "<group>";
+		};
+		A46D92F123C3E77B00E212EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46D930423C3E77C00E212EF /* libReact.a */,
+				A46D930623C3E77C00E212EF /* libReact.a */,
+				A46D930823C3E77C00E212EF /* libyoga.a */,
+				A46D930A23C3E77C00E212EF /* libyoga.a */,
+				A46D930C23C3E77C00E212EF /* libcxxreact.a */,
+				A46D930E23C3E77C00E212EF /* libcxxreact.a */,
+				A46D931023C3E77C00E212EF /* libjsinspector.a */,
+				A46D931223C3E77C00E212EF /* libjsinspector-tvOS.a */,
+				A46D931423C3E77C00E212EF /* libthird-party.a */,
+				A46D931623C3E77C00E212EF /* libthird-party.a */,
+				A46D931823C3E77C00E212EF /* libdouble-conversion.a */,
+				A46D931A23C3E77C00E212EF /* libdouble-conversion.a */,
+				A46D931C23C3E77C00E212EF /* libjsi.a */,
+				A46D931E23C3E77C00E212EF /* libjsiexecutor.a */,
+				A46D932023C3E77C00E212EF /* libjsi-tvOS.a */,
+				A46D932223C3E77C00E212EF /* libjsiexecutor-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46D932423C3E78100E212EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46D933723C3E78100E212EF /* libReact.a */,
+				A46D933923C3E78100E212EF /* libReact.a */,
+				A46D933B23C3E78100E212EF /* libyoga.a */,
+				A46D933D23C3E78100E212EF /* libyoga.a */,
+				A46D933F23C3E78100E212EF /* libcxxreact.a */,
+				A46D934123C3E78100E212EF /* libcxxreact.a */,
+				A46D934323C3E78100E212EF /* libjsinspector.a */,
+				A46D934523C3E78100E212EF /* libjsinspector-tvOS.a */,
+				A46D934723C3E78100E212EF /* libthird-party.a */,
+				A46D934923C3E78100E212EF /* libthird-party.a */,
+				A46D934B23C3E78100E212EF /* libdouble-conversion.a */,
+				A46D934D23C3E78100E212EF /* libdouble-conversion.a */,
+				A46D934F23C3E78100E212EF /* libjsi.a */,
+				A46D935123C3E78100E212EF /* libjsiexecutor.a */,
+				A46D935323C3E78100E212EF /* libjsi-tvOS.a */,
+				A46D935523C3E78100E212EF /* libjsiexecutor-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46D935723C3E79C00E212EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46D936A23C3E79C00E212EF /* libReact.a */,
+				A46D936C23C3E79C00E212EF /* libReact.a */,
+				A46D936E23C3E79C00E212EF /* libyoga.a */,
+				A46D937023C3E79C00E212EF /* libyoga.a */,
+				A46D937223C3E79C00E212EF /* libcxxreact.a */,
+				A46D937423C3E79C00E212EF /* libcxxreact.a */,
+				A46D937623C3E79C00E212EF /* libjsinspector.a */,
+				A46D937823C3E79C00E212EF /* libjsinspector-tvOS.a */,
+				A46D937A23C3E79C00E212EF /* libthird-party.a */,
+				A46D937C23C3E79C00E212EF /* libthird-party.a */,
+				A46D937E23C3E79C00E212EF /* libdouble-conversion.a */,
+				A46D938023C3E79C00E212EF /* libdouble-conversion.a */,
+				A46D938223C3E79C00E212EF /* libjsi.a */,
+				A46D938423C3E79C00E212EF /* libjsiexecutor.a */,
+				A46D938623C3E79C00E212EF /* libjsi-tvOS.a */,
+				A46D938823C3E79C00E212EF /* libjsiexecutor-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46D938E23C3EB3500E212EF /* PlaceManager */ = {
+			isa = PBXGroup;
+			children = (
+				A46D938C23C3EAE000E212EF /* PlaceManagerModule.m */,
+				A46D938B23C3E9EB00E212EF /* PlaceManagerModule.h */,
+			);
+			path = PlaceManager;
+			sourceTree = "<group>";
+		};
+		A4E00DF824636E930031AAB5 /* Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				A4E00DF924636E930031AAB5 /* GimbalDebuggerModule.h */,
+				A4E00DFA24636E930031AAB5 /* GimbalDebuggerModule.m */,
+			);
+			path = Debugger;
+			sourceTree = "<group>";
+		};
+		A4EE1E15243274A800D02301 /* BeaconManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE1E45243274C400D02301 /* BeaconManagerModule.h */,
+				A4EE1E462432904100D02301 /* BeaconManagerModule.m */,
+			);
+			path = BeaconManager;
+			sourceTree = "<group>";
+		};
+		A4EE1E4D2433AD9600D02301 /* BeaconHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE1E4E2433ADBB00D02301 /* BeaconHelper.h */,
+				A4EE1E4F2433AE5A00D02301 /* BeaconHelper.m */,
+			);
+			path = BeaconHelper;
+			sourceTree = "<group>";
+		};
+		F2BB79C0E92517D0E7961E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4135BAB243E783C00C3A39E /* libOCMock.a */,
+				A46D92F023C3E77B00E212EF /* React.xcodeproj */,
+				A46D932323C3E78100E212EF /* React.xcodeproj */,
+				F461D9E7A19D7AB0B56CCA52 /* Pods_RNGimbal.framework */,
+				3190A63704F5CB56630CAA57 /* Pods_RNGimbalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNGimbal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNGimbal" */;
+			buildPhases = (
+				25C0F79027A920EA9A616B04 /* [CP] Check Pods Manifest.lock */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46D938A23C3E7B800E212EF /* PBXTargetDependency */,
+			);
+			name = RNGimbal;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNGimbal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4EE1F272437C35300D02301 /* RNGimbalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EE1F612437C35400D02301 /* Build configuration list for PBXNativeTarget "RNGimbalTests" */;
+			buildPhases = (
+				E70CC51965F753261D56E1AC /* [CP] Check Pods Manifest.lock */,
+				A4EE1F242437C35300D02301 /* Sources */,
+				A4EE1F252437C35300D02301 /* Frameworks */,
+				A4EE1F262437C35300D02301 /* Resources */,
+				7933D480058C65A32AD1F11E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EE1F2F2437C35400D02301 /* PBXTargetDependency */,
+			);
+			name = RNGimbalTests;
+			productName = BeaconManagerTests;
+			productReference = A4EE1F282437C35300D02301 /* RNGimbalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A4EE1F272437C35300D02301 = {
+						CreatedOnToolsVersion = 11.4;
+						DevelopmentTeam = 3ETG9R4M5P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNGimbal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A46D932423C3E78100E212EF /* Products */;
+					ProjectRef = A46D932323C3E78100E212EF /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = A46D92F123C3E77B00E212EF /* Products */;
+					ProjectRef = A46D92F023C3E77B00E212EF /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = A46D935723C3E79C00E212EF /* Products */;
+					ProjectRef = A46D935623C3E79C00E212EF /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNGimbal */,
+				A4EE1F272437C35300D02301 /* RNGimbalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A46D930423C3E77C00E212EF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = A46D930323C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D930623C3E77C00E212EF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = A46D930523C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D930823C3E77C00E212EF /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = A46D930723C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D930A23C3E77C00E212EF /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = A46D930923C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D930C23C3E77C00E212EF /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = A46D930B23C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D930E23C3E77C00E212EF /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = A46D930D23C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931023C3E77C00E212EF /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = A46D930F23C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931223C3E77C00E212EF /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = A46D931123C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931423C3E77C00E212EF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = A46D931323C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931623C3E77C00E212EF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = A46D931523C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931823C3E77C00E212EF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = A46D931723C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931A23C3E77C00E212EF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = A46D931923C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931C23C3E77C00E212EF /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = A46D931B23C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D931E23C3E77C00E212EF /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = A46D931D23C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D932023C3E77C00E212EF /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = A46D931F23C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D932223C3E77C00E212EF /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = A46D932123C3E77C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D933723C3E78100E212EF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = A46D933623C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D933923C3E78100E212EF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = A46D933823C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D933B23C3E78100E212EF /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = A46D933A23C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D933D23C3E78100E212EF /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = A46D933C23C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D933F23C3E78100E212EF /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = A46D933E23C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934123C3E78100E212EF /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = A46D934023C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934323C3E78100E212EF /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = A46D934223C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934523C3E78100E212EF /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = A46D934423C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934723C3E78100E212EF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = A46D934623C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934923C3E78100E212EF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = A46D934823C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934B23C3E78100E212EF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = A46D934A23C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934D23C3E78100E212EF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = A46D934C23C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D934F23C3E78100E212EF /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = A46D934E23C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D935123C3E78100E212EF /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = A46D935023C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D935323C3E78100E212EF /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = A46D935223C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D935523C3E78100E212EF /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = A46D935423C3E78100E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D936A23C3E79C00E212EF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = A46D936923C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D936C23C3E79C00E212EF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = A46D936B23C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D936E23C3E79C00E212EF /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = A46D936D23C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937023C3E79C00E212EF /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = A46D936F23C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937223C3E79C00E212EF /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = A46D937123C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937423C3E79C00E212EF /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = A46D937323C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937623C3E79C00E212EF /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = A46D937523C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937823C3E79C00E212EF /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = A46D937723C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937A23C3E79C00E212EF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = A46D937923C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937C23C3E79C00E212EF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = A46D937B23C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D937E23C3E79C00E212EF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = A46D937D23C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D938023C3E79C00E212EF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = A46D937F23C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D938223C3E79C00E212EF /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = A46D938123C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D938423C3E79C00E212EF /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = A46D938323C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D938623C3E79C00E212EF /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = A46D938523C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A46D938823C3E79C00E212EF /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = A46D938723C3E79C00E212EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EE1F262437C35300D02301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25C0F79027A920EA9A616B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNGimbal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7933D480058C65A32AD1F11E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNGimbalTests/Pods-RNGimbalTests-frameworks.sh",
+				"${PODS_ROOT}/Gimbal/Frameworks/Gimbal.framework",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gimbal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNGimbalTests/Pods-RNGimbalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70CC51965F753261D56E1AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNGimbalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E00DFB24636E940031AAB5 /* GimbalDebuggerModule.m in Sources */,
+				A46D938D23C3EAE000E212EF /* PlaceManagerModule.m in Sources */,
+				A4EE1E502433AE5A00D02301 /* BeaconHelper.m in Sources */,
+				A48AD2DB23BFBC1100E6A774 /* PrivacyManagerModule.m in Sources */,
+				A4135D9F244A688700C3A39E /* EstablishedLocationsManagerModule.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNGimbal.m in Sources */,
+				A46AC1C124523236005EA192 /* LocationHelper.m in Sources */,
+				A4EE1E472432904100D02301 /* BeaconManagerModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EE1F242437C35300D02301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A414185E2452454700088BBF /* LocationHelperTests.m in Sources */,
+				A46AC124244E1EE3005EA192 /* EstablishedLocationManagerTests.m in Sources */,
+				A4135B27243E491F00C3A39E /* BeaconManagerTests.m in Sources */,
+				A4135B2B243E4CE600C3A39E /* RNGimbalTests-Info.plist in Sources */,
+				A4E00DFF24636ECE0031AAB5 /* GimbalDebuggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A46D938A23C3E7B800E212EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = A46D938923C3E7B800E212EF /* PBXContainerItemProxy */;
+		};
+		A4EE1F2F2437C35400D02301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B511DA1A9E6C8500147676 /* RNGimbal */;
+			targetProxy = A4EE1F2E2437C35400D02301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC568F42197B16D18C02833 /* Pods-RNGimbal.debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNGimbal;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91949923432F0AFB9641BFF0 /* Pods-RNGimbal.release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNGimbal;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4EE1F302437C35400D02301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B58B6B6C678357FEC2D63A9 /* Pods-RNGimbalTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3ETG9R4M5P;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion/DoubleConversion.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly/folly.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React/React.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/yoga/yoga.framework/Headers\"",
+					"$(PROJECT_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = "Tests/RNGimbalTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Gimbal\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"\"$(PROJECT_DIR)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gimbal.BeaconManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4EE1F312437C35400D02301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2522696E845A0E33F6596E3D /* Pods-RNGimbalTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3ETG9R4M5P;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion/DoubleConversion.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly/folly.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React/React.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/yoga/yoga.framework/Headers\"",
+					"$(PROJECT_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = "Tests/BeaconManagerTests/BeaconManagerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Gimbal\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"\"$(PROJECT_DIR)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gimbal.BeaconManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNGimbal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNGimbal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EE1F612437C35400D02301 /* Build configuration list for PBXNativeTarget "RNGimbalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EE1F302437C35400D02301 /* Debug */,
+				A4EE1F312437C35400D02301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
