@@ -68,6 +68,12 @@ public class PlaceManagerModule extends ReactContextBaseJavaModule {
     public void isMonitoring(Promise promise) {
         promise.resolve(PlaceManager.getInstance().isMonitoring());
     }
+    
+    @ReactMethod
+    public void getCurrentVisits() {
+        List<Visit> visits = PlaceManager.getInstance().currentVisits()
+        sendEvent("CurrentVisits", toArray(visits));
+    }
 
     @Override
     public Map<String, Object> getConstants() {
