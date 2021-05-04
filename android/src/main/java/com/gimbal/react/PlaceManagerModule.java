@@ -70,9 +70,9 @@ public class PlaceManagerModule extends ReactContextBaseJavaModule {
     }
     
     @ReactMethod
-    public void getCurrentVisits() {
-        List<Visit> visits = PlaceManager.getInstance().currentVisits()
-        sendEvent("CurrentVisits", toArray(visits));
+    public void getCurrentVisits(Promise promise) {
+        List<Visit> visits = PlaceManager.getInstance().currentVisits();
+        promise.resolve(toMap(visits));
     }
 
     @Override
